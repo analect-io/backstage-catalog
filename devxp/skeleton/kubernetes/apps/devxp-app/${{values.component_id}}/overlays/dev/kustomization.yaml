@@ -3,14 +3,14 @@ kind: Kustomization
 resources:
 - ../../base
 helmCharts:
-- name: devxp-app
-  releaseName: devxp-app
+- name: analect-app
+  releaseName: analect-app
   version: 0.1.39
-  repo: https://devxp-tech.github.io/helm-charts
+  repo: https://analect.github.io/helm-charts
   valuesInline:
     name: ${{values.component_id}}
     image:
-      repository: ghcr.io/devxp-tech/${{values.component_id}}
+      repository: ghcr.io/analect/${{values.component_id}}
       tag: latest
     autoscaling:
       enabled: ${{values.autoscaling}}

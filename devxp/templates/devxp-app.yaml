@@ -1,8 +1,8 @@
 apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
-  name: devxp-app
-  title: DevXP Web Application
+  name: analect-app
+  title: analect Web Application
   description: Create a new Web Application
   tags:
     - go
@@ -92,7 +92,7 @@ spec:
             allowedHosts:
               - github.com
             allowedOwners:
-              - devxp-tech
+              - analect
               - diegoluisi
             # allowedRepos:
             #   - ${{ parameters.component_id }}
@@ -408,7 +408,7 @@ spec:
       action: fetch:template
       cookiecutterCompat: true
       input:
-        url: https://github.com/devxp-tech/template-${{ parameters.language }}
+        url: https://github.com/analect/template-${{ parameters.language }}
         #copyWithoutRender:
         #  - .github/workflows/*
         values:
@@ -446,7 +446,7 @@ spec:
       if: ${{ parameters.kubernetes.status == true }}
       input:
         targetPath: ./kubernetes
-        url: https://github.com/devxp-tech/backstage-catalog/tree/main/devxp/skeleton/kubernetes/apps/devxp-app
+        url: https://github.com/analect/backstage-catalog/tree/main/analect/skeleton/kubernetes/apps/analect-app
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}
@@ -467,7 +467,7 @@ spec:
       action: publish:github:pull-request
       if: ${{ parameters.kubernetes.status == true }}
       input:
-        repoUrl: github.com?repo=gitops&owner=devxp-tech
+        repoUrl: github.com?repo=gitops&owner=analect
         branchName: create-${{ parameters.component_id }}
         title: ':robot: [backstage-bot] Create new App ${{ parameters.component_id }}'
         description: |

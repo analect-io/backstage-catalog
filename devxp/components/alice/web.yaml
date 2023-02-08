@@ -12,25 +12,25 @@ metadata:
     - apache
     - frontend
   links:
-    - url: https://bob.devxp.com/user
+    - url: https://bob.analect.com/user
       title: Examples Users
       icon: user
-    - url: https://bob.devxp.com/group
+    - url: https://bob.analect.com/group
       title: Example Group
       icon: group
-    - url: https://bob.devxp.com/cloud
+    - url: https://bob.analect.com/cloud
       title: Link with Cloud Icon
       icon: cloud
-    - url: https://bob.devxp.com/dashboard
+    - url: https://bob.analect.com/dashboard
       title: Dashboard
       icon: dashboard
-    - url: https://bob.devxp.com/help
+    - url: https://bob.analect.com/help
       title: Support
       icon: help
-    - url: https://bob.devxp.com/web
+    - url: https://bob.analect.com/web
       title: Website
       icon: web
-    - url: https://bob.devxp.com/alert
+    - url: https://bob.analect.com/alert
       title: Alerts
       icon: alert
 spec:
