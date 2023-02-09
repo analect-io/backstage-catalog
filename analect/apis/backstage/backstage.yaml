@@ -14,7 +14,7 @@ spec:
   system: backstage
   owner: group:sre-team
   providesApis:
-    - backstage.diegoluisi.eti.br
+    - backstage.analect.com
   definition: |
     openapi: "3.0.0"
     info:
@@ -23,7 +23,7 @@ spec:
       license:
         name: MIT
     servers:
-      - url: https://backstage.diegoluisi.eti.br/
+      - url: https://backstage.analect.com/
     paths:
       /artists:
         get:
