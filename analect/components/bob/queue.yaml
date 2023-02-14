@@ -9,7 +9,7 @@ metadata:
     - queue
     - data
   annotations:
-    # github.com/project-slug: diegoluisi/template-golang
+    # github.com/project-slug: analect/template-golang
   links:
     - url: https://bob.analect.com/user
       title: Examples Users
