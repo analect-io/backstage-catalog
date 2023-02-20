@@ -112,7 +112,7 @@ spec:
       action: fetch:template
       cookiecutterCompat: true
       input:
-        url: https://github.com/analect/template-app-go
+        url: https://github.com/analect-io/template-app-go
         #copyWithoutRender:
         #  - .github/workflows/*
         values:
@@ -148,7 +148,7 @@ spec:
       if: ${{ parameters.kube == true }}
       input:
         targetPath: ./kube
-        url: https://github.com/analect/backstage-catalog/tree/main/analect/skeleton/kubernetes/apps/kustomize
+        url: https://github.com/analect-io/backstage-catalog/tree/main/analect/skeleton/kubernetes/apps/kustomize
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}

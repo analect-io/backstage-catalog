@@ -4,7 +4,7 @@
   "destNamespace": "${{values.component_id}}",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps/${{values.component_id}}/overlays/dev",
-  "srcRepoURL": "https://github.com/analect/gitops.git",
+  "srcRepoURL": "https://github.com/analect-io/gitops.git",
   "srcTargetRevision": "",
   "CreateNamespace": true,
   "labels": null

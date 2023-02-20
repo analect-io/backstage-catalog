@@ -90,7 +90,7 @@ spec:
       if: ${{ parameters.dryRun == false }}
       input:
         targetPath: ./s3
-        url: https://github.com/analect/backstage-catalog/tree/main/analect/skeleton/crossplane/s3
+        url: https://github.com/analect-io/backstage-catalog/tree/main/analect/skeleton/crossplane/s3
         values:
           system: ${{ parameters.system }}
           owner: ${{ parameters.owner }}

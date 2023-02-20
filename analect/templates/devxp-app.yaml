@@ -408,7 +408,7 @@ spec:
       action: fetch:template
       cookiecutterCompat: true
       input:
-        url: https://github.com/analect/template-${{ parameters.language }}
+        url: https://github.com/analect-io/template-${{ parameters.language }}
         #copyWithoutRender:
         #  - .github/workflows/*
         values:
@@ -446,7 +446,7 @@ spec:
       if: ${{ parameters.kubernetes.status == true }}
       input:
         targetPath: ./kubernetes
-        url: https://github.com/analect/backstage-catalog/tree/main/analect/skeleton/kubernetes/apps/analect-app
+        url: https://github.com/analect-io/backstage-catalog/tree/main/analect/skeleton/kubernetes/apps/analect-app
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}
