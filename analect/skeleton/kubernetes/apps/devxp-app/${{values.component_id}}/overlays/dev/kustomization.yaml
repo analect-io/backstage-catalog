@@ -10,7 +10,7 @@ helmCharts:
   valuesInline:
     name: ${{values.component_id}}
     image:
-      repository: ghcr.io/analect/${{values.component_id}}
+      repository: ghcr.io/analect-io/${{values.component_id}}
       tag: latest
     autoscaling:
       enabled: ${{values.autoscaling}}
