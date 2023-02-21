@@ -148,7 +148,7 @@ spec:
       if: ${{ parameters.kube == true }}
       input:
         targetPath: ./kube
-        url: https://github.com/analect-io/backstage-catalog/tree/main/analect/skeleton/kubernetes/apps/kustomize
+        url: https://github.com/analect-io/backstage-catalog/tree/main/analect-io/skeleton/kubernetes/apps/kustomize
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}

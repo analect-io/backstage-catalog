@@ -72,7 +72,7 @@ spec:
       if: ${{ parameters.dryRun == false }}
       input:
         targetPath: ./system
-        url: https://github.com/analect-io/backstage-catalog/tree/main/analect/skeleton/system
+        url: https://github.com/analect-io/backstage-catalog/tree/main/analect-io/skeleton/system
         values:
           system: ${{ parameters.system }}
           description: ${{ parameters.description }}

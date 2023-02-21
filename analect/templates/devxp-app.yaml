@@ -446,7 +446,7 @@ spec:
       if: ${{ parameters.kubernetes.status == true }}
       input:
         targetPath: ./kubernetes
-        url: https://github.com/analect-io/backstage-catalog/tree/main/analect/skeleton/kubernetes/apps/analect-app
+        url: https://github.com/analect-io/backstage-catalog/tree/main/analect-io/skeleton/kubernetes/apps/analect-app
         values:
           component_id: ${{ parameters.component_id }}
           description: ${{ parameters.description }}
