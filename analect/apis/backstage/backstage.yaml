@@ -5,7 +5,7 @@ metadata:
   description: Backstage IDP Portal
 
   annotations:
-    github.com/project-slug: diegoluisi/backstage
+    github.com/project-slug: analect-io/backstage
     backstage.io/techdocs-ref: value
     backstage.io/kubernetes-namespace: backstage
 spec:

@@ -93,7 +93,7 @@ spec:
               - github.com
             allowedOwners:
               - analect
-              - diegoluisi
+              - analect-io
             # allowedRepos:
             #   - ${{ parameters.component_id }}
 
