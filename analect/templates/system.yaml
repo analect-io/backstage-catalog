@@ -92,7 +92,7 @@ spec:
           # New project: ${{ parameters.system }}
           ${{ parameters.description if parameters.description }}
         sourcePath: system
-        targetPath: analect/systems
+        targetPath: analect-io/systems
 
     # - id: register
     #   name: Register Application in Catalog

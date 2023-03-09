@@ -11,7 +11,7 @@ metadata:
       title: Backstage
       icon: dashboard
   annotations:
-    github.com/project-slug: analect/backstage
+    github.com/project-slug: analect-io/backstage
     backstage.io/kubernetes-namespace: backstage
 spec:
   type: system
