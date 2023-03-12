@@ -2,7 +2,7 @@ apiVersion: scaffolder.backstage.io/v1beta3
 kind: Template
 metadata:
   name: analect-app
-  title: analect Web Application
+  title: Analect Web Application
   description: Create a new Web Application
   tags:
     - go
