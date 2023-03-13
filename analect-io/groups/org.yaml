@@ -1,11 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: analect
+  name: analect-io
   description: Analect
 
   links:
-    - url: http://www.analect.io/
+    - url: http://www.analect.com/
       title: Website
     - url: https://analect.local/wiki/
       title: Intranet
@@ -13,7 +13,7 @@ spec:
   type: organization
   profile:
     displayName: analect-io
-    email: it@analect.io
+    email: info@analect.com
     # picture: https://avatars.dicebear.com/api/identicon/info@example.com.svg?background=%23fff&margin=25
   children: [group:engineering]
 
