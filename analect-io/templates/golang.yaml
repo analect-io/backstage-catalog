@@ -84,6 +84,7 @@ spec:
               - github.com
             allowedOwners:
               - analect
+              - analect-io
 
     - title: Infrastructure
       properties:
@@ -160,7 +161,7 @@ spec:
       action: publish:github:pull-request
       if: ${{ parameters.kube == true }}
       input:
-        repoUrl: github.com?repo=gitops&owner=analect
+        repoUrl: github.com?repo=gitops&owner=analect-io
         branchName: create-${{ parameters.component_id }}
         title: ':robot: [backstage-bot] Create new App ${{ parameters.component_id }}'
         description: |
